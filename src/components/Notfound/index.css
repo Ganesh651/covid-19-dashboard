@@ -1,0 +1,71 @@
+.notfound-container{
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      align-items: center;
+      padding: 30px;
+}
+.notfound-image{
+      width: 448px;
+      height: 295.732px;
+      flex-shrink: 0;
+}
+.notfound-heading{
+      color:  #CBD5E1;
+      text-align: center;
+      font-family: "Roboto";
+      font-size: 32px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 48px; 
+      margin: 5px;
+}
+.notfound-description{
+      color:  #94A3B8;
+      text-align: center;
+      font-family: "Roboto";
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 32px; 
+      width: 448px;
+      margin: 5px;
+}
+.home-button{
+      color: #fff;
+      border-radius: 4px;
+      background-color: #2563EB;
+      height: 48px;
+      width: 88px;
+      font-size: 14px;
+      line-height: 24px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 20px;
+}
+
+@media screen and (max-width: 768px){
+      .notfound-image{
+            width: 242px;
+            height: 162px;
+            flex-shrink: 0;
+      }
+      .notfound-heading{
+            font-size: 16px;
+            line-height: 24px; 
+      }
+      .notfound-description{
+            font-size: 12px;
+            line-height: 20px;
+            width: 242px; 
+      }
+      .home-button{
+            height: 32px;
+            width: 66px;
+            font-size: 12px;
+            line-height: 16px;
+            margin-top: 10px;
+      }
+
+}

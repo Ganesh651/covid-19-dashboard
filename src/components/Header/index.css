@@ -1,0 +1,42 @@
+.app-header{
+      background-color: #1E1E30;
+      height: 80px;
+      padding: 10px 150px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+}
+.website-logo{
+      color:#F8FAFC;
+      text-align: center;
+      font-family: "Bree Serif";
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 24px;
+}
+.span-text{
+      color: #3B82F6;
+}
+.nav-list-container{
+      list-style: none;
+      padding: 0;
+      display: flex;
+      align-items: center;
+}
+.nav-item{
+      color:  #94A3B8;
+      font-family: "Roboto";
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 24px; 
+      cursor: pointer;
+      margin: 5px;
+}
+.nav-item:hover{
+      color: #fff;
+}
+.link{
+      text-decoration: none;
+}
